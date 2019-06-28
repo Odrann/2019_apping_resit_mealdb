@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MealDBApp</string>
+    <string name="categories">Categories</string>
 </resources>
