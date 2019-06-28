@@ -1,5 +1,8 @@
 package fr.epita.android.mealdbapp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Categorie {
 
     private String id;
@@ -7,6 +10,7 @@ public class Categorie {
     private String categoryThumb;
     private String categoryDesc;
 
+    public static List<Categorie> listCat = new ArrayList<Categorie>();
     public Categorie()
     {
 

@@ -63,6 +63,7 @@ public class fetchData extends AsyncTask<Void, Void, String> {
                 cat.setCategoryName(jsonObject.getString("strCategory"));
                 cat.setCategoryThumb(jsonObject.getString("strCategoryThumb"));
                 cat.setCategoryDesc(jsonObject.getString("strCategoryDescription"));
+                Categorie.listCat.add(cat);
             }
 
             return forecastJsonStr;
